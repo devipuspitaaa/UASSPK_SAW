@@ -53,7 +53,6 @@ Route::prefix('/alternatif')->group(function ()
     Route::post('/hapus/{id}', 'AlternatifController@destroy')->name('alternatif.hapus');
 });
 
-
 //Route module for nilai
 Route::prefix('/nilai')->group(function ()
 {
