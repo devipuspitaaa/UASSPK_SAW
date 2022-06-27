@@ -12,7 +12,7 @@ class CripTableSeeder extends Seeder
     public function run()
     {
         $k = \App\Kriteria::find(1);
-        $k-> crip()->create([
+        $k->crip()->create([
             'nama_crip'     => '< Rp.1000.000,-',
             'nilai_crip'    => 1
         ]);
