@@ -48,7 +48,7 @@
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{route('kriteria')}}">Kriteria</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="{{route('crip')}}">Nilai Crips</a>
+                                    <a class="dropdown-item" href="{{route('crip')}}">Nilai Kriteria</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
